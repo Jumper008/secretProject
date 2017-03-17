@@ -1,0 +1,383 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1F89B830E225710CAFC28395 /* Pods_Coloreaction.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01853C9046E89C239F62F2AC /* Pods_Coloreaction.framework */; };
+		B96E8CD41E7B7A9800BB4A42 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96E8CD31E7B7A9800BB4A42 /* AppDelegate.swift */; };
+		B96E8CD61E7B7A9800BB4A42 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96E8CD51E7B7A9800BB4A42 /* ViewController.swift */; };
+		B96E8CD91E7B7A9800BB4A42 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B96E8CD71E7B7A9800BB4A42 /* Main.storyboard */; };
+		B96E8CDB1E7B7A9800BB4A42 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B96E8CDA1E7B7A9800BB4A42 /* Assets.xcassets */; };
+		B96E8CDE1E7B7A9800BB4A42 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B96E8CDC1E7B7A9800BB4A42 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		01853C9046E89C239F62F2AC /* Pods_Coloreaction.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Coloreaction.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B96E8CD01E7B7A9800BB4A42 /* Coloreaction.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Coloreaction.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B96E8CD31E7B7A9800BB4A42 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B96E8CD51E7B7A9800BB4A42 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B96E8CD81E7B7A9800BB4A42 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B96E8CDA1E7B7A9800BB4A42 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B96E8CDD1E7B7A9800BB4A42 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B96E8CDF1E7B7A9800BB4A42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D277BB5F852AAACA65D7003E /* Pods-Coloreaction.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Coloreaction.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Coloreaction/Pods-Coloreaction.debug.xcconfig"; sourceTree = "<group>"; };
+		F44EB248B73AA28FD0DD07EC /* Pods-Coloreaction.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Coloreaction.release.xcconfig"; path = "Pods/Target Support Files/Pods-Coloreaction/Pods-Coloreaction.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B96E8CCD1E7B7A9600BB4A42 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F89B830E225710CAFC28395 /* Pods_Coloreaction.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7C6805278FA9C21F2902314E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D277BB5F852AAACA65D7003E /* Pods-Coloreaction.debug.xcconfig */,
+				F44EB248B73AA28FD0DD07EC /* Pods-Coloreaction.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B96E8CC71E7B7A9600BB4A42 = {
+			isa = PBXGroup;
+			children = (
+				B96E8CD21E7B7A9800BB4A42 /* Coloreaction */,
+				B96E8CD11E7B7A9800BB4A42 /* Products */,
+				7C6805278FA9C21F2902314E /* Pods */,
+				EB5EA12090FA0EA0313FDA82 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B96E8CD11E7B7A9800BB4A42 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B96E8CD01E7B7A9800BB4A42 /* Coloreaction.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B96E8CD21E7B7A9800BB4A42 /* Coloreaction */ = {
+			isa = PBXGroup;
+			children = (
+				B96E8CD31E7B7A9800BB4A42 /* AppDelegate.swift */,
+				B96E8CD51E7B7A9800BB4A42 /* ViewController.swift */,
+				B96E8CD71E7B7A9800BB4A42 /* Main.storyboard */,
+				B96E8CDA1E7B7A9800BB4A42 /* Assets.xcassets */,
+				B96E8CDC1E7B7A9800BB4A42 /* LaunchScreen.storyboard */,
+				B96E8CDF1E7B7A9800BB4A42 /* Info.plist */,
+			);
+			path = Coloreaction;
+			sourceTree = "<group>";
+		};
+		EB5EA12090FA0EA0313FDA82 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				01853C9046E89C239F62F2AC /* Pods_Coloreaction.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B96E8CCF1E7B7A9600BB4A42 /* Coloreaction */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B96E8CE21E7B7A9800BB4A42 /* Build configuration list for PBXNativeTarget "Coloreaction" */;
+			buildPhases = (
+				E355C05675530F9F711ECA54 /* [CP] Check Pods Manifest.lock */,
+				B96E8CCC1E7B7A9600BB4A42 /* Sources */,
+				B96E8CCD1E7B7A9600BB4A42 /* Frameworks */,
+				B96E8CCE1E7B7A9600BB4A42 /* Resources */,
+				7981B3B6EEA8DA5AEF6ED7E5 /* [CP] Embed Pods Frameworks */,
+				0C1F1B72CE8725F2F40968BD /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Coloreaction;
+			productName = Coloreaction;
+			productReference = B96E8CD01E7B7A9800BB4A42 /* Coloreaction.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B96E8CC81E7B7A9600BB4A42 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				TargetAttributes = {
+					B96E8CCF1E7B7A9600BB4A42 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 4U3ASR7LV8;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = B96E8CCB1E7B7A9600BB4A42 /* Build configuration list for PBXProject "Coloreaction" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B96E8CC71E7B7A9600BB4A42;
+			productRefGroup = B96E8CD11E7B7A9800BB4A42 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B96E8CCF1E7B7A9600BB4A42 /* Coloreaction */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B96E8CCE1E7B7A9600BB4A42 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B96E8CDE1E7B7A9800BB4A42 /* LaunchScreen.storyboard in Resources */,
+				B96E8CDB1E7B7A9800BB4A42 /* Assets.xcassets in Resources */,
+				B96E8CD91E7B7A9800BB4A42 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0C1F1B72CE8725F2F40968BD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Coloreaction/Pods-Coloreaction-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7981B3B6EEA8DA5AEF6ED7E5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Coloreaction/Pods-Coloreaction-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E355C05675530F9F711ECA54 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B96E8CCC1E7B7A9600BB4A42 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B96E8CD61E7B7A9800BB4A42 /* ViewController.swift in Sources */,
+				B96E8CD41E7B7A9800BB4A42 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B96E8CD71E7B7A9800BB4A42 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B96E8CD81E7B7A9800BB4A42 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B96E8CDC1E7B7A9800BB4A42 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B96E8CDD1E7B7A9800BB4A42 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B96E8CE01E7B7A9800BB4A42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B96E8CE11E7B7A9800BB4A42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B96E8CE31E7B7A9800BB4A42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D277BB5F852AAACA65D7003E /* Pods-Coloreaction.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4U3ASR7LV8;
+				INFOPLIST_FILE = Coloreaction/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Coloreaction;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		B96E8CE41E7B7A9800BB4A42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F44EB248B73AA28FD0DD07EC /* Pods-Coloreaction.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4U3ASR7LV8;
+				INFOPLIST_FILE = Coloreaction/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Coloreaction;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B96E8CCB1E7B7A9600BB4A42 /* Build configuration list for PBXProject "Coloreaction" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B96E8CE01E7B7A9800BB4A42 /* Debug */,
+				B96E8CE11E7B7A9800BB4A42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B96E8CE21E7B7A9800BB4A42 /* Build configuration list for PBXNativeTarget "Coloreaction" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B96E8CE31E7B7A9800BB4A42 /* Debug */,
+				B96E8CE41E7B7A9800BB4A42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B96E8CC81E7B7A9600BB4A42 /* Project object */;
+}
