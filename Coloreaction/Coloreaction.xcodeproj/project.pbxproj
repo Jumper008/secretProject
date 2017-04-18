@@ -8,22 +8,62 @@
 
 /* Begin PBXBuildFile section */
 		1F89B830E225710CAFC28395 /* Pods_Coloreaction.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01853C9046E89C239F62F2AC /* Pods_Coloreaction.framework */; };
+		B919152D1EA079C9007854EC /* UIColor+ColorConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = B919152C1EA079C9007854EC /* UIColor+ColorConstants.swift */; };
+		B91915321EA58668007854EC /* OtherGames.wav in Resources */ = {isa = PBXBuildFile; fileRef = B91915311EA58661007854EC /* OtherGames.wav */; };
+		B91915341EA5867A007854EC /* MainMenu.wav in Resources */ = {isa = PBXBuildFile; fileRef = B91915331EA5867A007854EC /* MainMenu.wav */; };
+		B91915381EA58691007854EC /* boing_x.wav in Resources */ = {isa = PBXBuildFile; fileRef = B91915351EA58691007854EC /* boing_x.wav */; };
+		B91915391EA58691007854EC /* buzzer_x.wav in Resources */ = {isa = PBXBuildFile; fileRef = B91915361EA58691007854EC /* buzzer_x.wav */; };
+		B919153A1EA58691007854EC /* chime_up.wav in Resources */ = {isa = PBXBuildFile; fileRef = B91915371EA58691007854EC /* chime_up.wav */; };
+		B919153C1EA586A8007854EC /* TimeGames.wav in Resources */ = {isa = PBXBuildFile; fileRef = B919153B1EA586A8007854EC /* TimeGames.wav */; };
+		B919153E1EA5A709007854EC /* CreditsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B919153D1EA5A709007854EC /* CreditsViewController.swift */; };
 		B96E8CD41E7B7A9800BB4A42 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96E8CD31E7B7A9800BB4A42 /* AppDelegate.swift */; };
-		B96E8CD61E7B7A9800BB4A42 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96E8CD51E7B7A9800BB4A42 /* ViewController.swift */; };
 		B96E8CD91E7B7A9800BB4A42 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B96E8CD71E7B7A9800BB4A42 /* Main.storyboard */; };
 		B96E8CDB1E7B7A9800BB4A42 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B96E8CDA1E7B7A9800BB4A42 /* Assets.xcassets */; };
 		B96E8CDE1E7B7A9800BB4A42 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B96E8CDC1E7B7A9800BB4A42 /* LaunchScreen.storyboard */; };
+		B9887F861E9DB46800090593 /* Answer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9887F851E9DB46800090593 /* Answer.swift */; };
+		B9887F8C1E9DE83600090593 /* PopulationScript.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9887F8B1E9DE83600090593 /* PopulationScript.swift */; };
+		B9887F8E1E9DEDD200090593 /* Questions.plist in Resources */ = {isa = PBXBuildFile; fileRef = B9887F8D1E9DEDD200090593 /* Questions.plist */; };
+		B9887F931E9F4BEC00090593 /* MainMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9887F921E9F4BEC00090593 /* MainMenuViewController.swift */; };
+		B9887F951E9F675D00090593 /* Score.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9887F941E9F675D00090593 /* Score.swift */; };
+		B9887F971E9F692100090593 /* TimeAttackScore.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9887F961E9F692100090593 /* TimeAttackScore.swift */; };
+		B9887F991E9F697B00090593 /* SurvivalScore.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9887F981E9F697B00090593 /* SurvivalScore.swift */; };
+		B9887F9B1E9F699B00090593 /* EndlessScore.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9887F9A1E9F699B00090593 /* EndlessScore.swift */; };
+		B9887F9D1E9F69BE00090593 /* BlitzScore.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9887F9C1E9F69BE00090593 /* BlitzScore.swift */; };
+		B9887F9F1EA0175300090593 /* HighscoreTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9887F9E1EA0175200090593 /* HighscoreTableViewCell.swift */; };
+		B9887FA11EA01FF300090593 /* SettingsMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9887FA01EA01FF300090593 /* SettingsMenuViewController.swift */; };
+		B9887FA31EA06B0100090593 /* InGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9887FA21EA06B0100090593 /* InGameViewController.swift */; };
+		B9BAD2641E81B39700308859 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9BAD2631E81B39700308859 /* Question.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		01853C9046E89C239F62F2AC /* Pods_Coloreaction.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Coloreaction.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B919152C1EA079C9007854EC /* UIColor+ColorConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+ColorConstants.swift"; sourceTree = "<group>"; };
+		B91915311EA58661007854EC /* OtherGames.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = OtherGames.wav; sourceTree = "<group>"; };
+		B91915331EA5867A007854EC /* MainMenu.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = MainMenu.wav; sourceTree = "<group>"; };
+		B91915351EA58691007854EC /* boing_x.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = boing_x.wav; sourceTree = "<group>"; };
+		B91915361EA58691007854EC /* buzzer_x.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = buzzer_x.wav; sourceTree = "<group>"; };
+		B91915371EA58691007854EC /* chime_up.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = chime_up.wav; sourceTree = "<group>"; };
+		B919153B1EA586A8007854EC /* TimeGames.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = TimeGames.wav; sourceTree = "<group>"; };
+		B919153D1EA5A709007854EC /* CreditsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreditsViewController.swift; sourceTree = "<group>"; };
 		B96E8CD01E7B7A9800BB4A42 /* Coloreaction.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Coloreaction.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B96E8CD31E7B7A9800BB4A42 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B96E8CD51E7B7A9800BB4A42 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B96E8CD81E7B7A9800BB4A42 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B96E8CDA1E7B7A9800BB4A42 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B96E8CDD1E7B7A9800BB4A42 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B96E8CDF1E7B7A9800BB4A42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B9887F851E9DB46800090593 /* Answer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Answer.swift; sourceTree = "<group>"; };
+		B9887F8B1E9DE83600090593 /* PopulationScript.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopulationScript.swift; sourceTree = "<group>"; };
+		B9887F8D1E9DEDD200090593 /* Questions.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Questions.plist; sourceTree = "<group>"; };
+		B9887F921E9F4BEC00090593 /* MainMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainMenuViewController.swift; sourceTree = "<group>"; };
+		B9887F941E9F675D00090593 /* Score.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Score.swift; sourceTree = "<group>"; };
+		B9887F961E9F692100090593 /* TimeAttackScore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeAttackScore.swift; sourceTree = "<group>"; };
+		B9887F981E9F697B00090593 /* SurvivalScore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SurvivalScore.swift; sourceTree = "<group>"; };
+		B9887F9A1E9F699B00090593 /* EndlessScore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EndlessScore.swift; sourceTree = "<group>"; };
+		B9887F9C1E9F69BE00090593 /* BlitzScore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlitzScore.swift; sourceTree = "<group>"; };
+		B9887F9E1EA0175200090593 /* HighscoreTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HighscoreTableViewCell.swift; sourceTree = "<group>"; };
+		B9887FA01EA01FF300090593 /* SettingsMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsMenuViewController.swift; sourceTree = "<group>"; };
+		B9887FA21EA06B0100090593 /* InGameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InGameViewController.swift; sourceTree = "<group>"; };
+		B9BAD2631E81B39700308859 /* Question.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
 		D277BB5F852AAACA65D7003E /* Pods-Coloreaction.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Coloreaction.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Coloreaction/Pods-Coloreaction.debug.xcconfig"; sourceTree = "<group>"; };
 		F44EB248B73AA28FD0DD07EC /* Pods-Coloreaction.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Coloreaction.release.xcconfig"; path = "Pods/Target Support Files/Pods-Coloreaction/Pods-Coloreaction.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -49,6 +89,19 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		B91915301EA5862C007854EC /* Sounds And Music */ = {
+			isa = PBXGroup;
+			children = (
+				B91915351EA58691007854EC /* boing_x.wav */,
+				B91915361EA58691007854EC /* buzzer_x.wav */,
+				B91915371EA58691007854EC /* chime_up.wav */,
+				B91915331EA5867A007854EC /* MainMenu.wav */,
+				B91915311EA58661007854EC /* OtherGames.wav */,
+				B919153B1EA586A8007854EC /* TimeGames.wav */,
+			);
+			name = "Sounds And Music";
+			sourceTree = "<group>";
+		};
 		B96E8CC71E7B7A9600BB4A42 = {
 			isa = PBXGroup;
 			children = (
@@ -70,14 +123,45 @@
 		B96E8CD21E7B7A9800BB4A42 /* Coloreaction */ = {
 			isa = PBXGroup;
 			children = (
+				B91915301EA5862C007854EC /* Sounds And Music */,
+				B9887F8F1E9F274A00090593 /* ViewControllers */,
+				B9BAD2621E81B0F200308859 /* Realm Models */,
 				B96E8CD31E7B7A9800BB4A42 /* AppDelegate.swift */,
-				B96E8CD51E7B7A9800BB4A42 /* ViewController.swift */,
 				B96E8CD71E7B7A9800BB4A42 /* Main.storyboard */,
+				B919152C1EA079C9007854EC /* UIColor+ColorConstants.swift */,
 				B96E8CDA1E7B7A9800BB4A42 /* Assets.xcassets */,
 				B96E8CDC1E7B7A9800BB4A42 /* LaunchScreen.storyboard */,
 				B96E8CDF1E7B7A9800BB4A42 /* Info.plist */,
 			);
 			path = Coloreaction;
+			sourceTree = "<group>";
+		};
+		B9887F8F1E9F274A00090593 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				B919153D1EA5A709007854EC /* CreditsViewController.swift */,
+				B9887FA21EA06B0100090593 /* InGameViewController.swift */,
+				B9887FA01EA01FF300090593 /* SettingsMenuViewController.swift */,
+				B9887F921E9F4BEC00090593 /* MainMenuViewController.swift */,
+				B9887F9E1EA0175200090593 /* HighscoreTableViewCell.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		B9BAD2621E81B0F200308859 /* Realm Models */ = {
+			isa = PBXGroup;
+			children = (
+				B9887F941E9F675D00090593 /* Score.swift */,
+				B9887F961E9F692100090593 /* TimeAttackScore.swift */,
+				B9887F981E9F697B00090593 /* SurvivalScore.swift */,
+				B9887F9A1E9F699B00090593 /* EndlessScore.swift */,
+				B9887F9C1E9F69BE00090593 /* BlitzScore.swift */,
+				B9887F8B1E9DE83600090593 /* PopulationScript.swift */,
+				B9887F8D1E9DEDD200090593 /* Questions.plist */,
+				B9BAD2631E81B39700308859 /* Question.swift */,
+				B9887F851E9DB46800090593 /* Answer.swift */,
+			);
+			name = "Realm Models";
 			sourceTree = "<group>";
 		};
 		EB5EA12090FA0EA0313FDA82 /* Frameworks */ = {
@@ -150,9 +234,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B9887F8E1E9DEDD200090593 /* Questions.plist in Resources */,
+				B919153C1EA586A8007854EC /* TimeGames.wav in Resources */,
+				B919153A1EA58691007854EC /* chime_up.wav in Resources */,
+				B91915391EA58691007854EC /* buzzer_x.wav in Resources */,
 				B96E8CDE1E7B7A9800BB4A42 /* LaunchScreen.storyboard in Resources */,
+				B91915341EA5867A007854EC /* MainMenu.wav in Resources */,
+				B91915321EA58668007854EC /* OtherGames.wav in Resources */,
 				B96E8CDB1E7B7A9800BB4A42 /* Assets.xcassets in Resources */,
 				B96E8CD91E7B7A9800BB4A42 /* Main.storyboard in Resources */,
+				B91915381EA58691007854EC /* boing_x.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -211,8 +302,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B96E8CD61E7B7A9800BB4A42 /* ViewController.swift in Sources */,
+				B9887FA11EA01FF300090593 /* SettingsMenuViewController.swift in Sources */,
+				B9887F9F1EA0175300090593 /* HighscoreTableViewCell.swift in Sources */,
+				B9887FA31EA06B0100090593 /* InGameViewController.swift in Sources */,
+				B9887F9B1E9F699B00090593 /* EndlessScore.swift in Sources */,
+				B919153E1EA5A709007854EC /* CreditsViewController.swift in Sources */,
+				B9BAD2641E81B39700308859 /* Question.swift in Sources */,
+				B9887F9D1E9F69BE00090593 /* BlitzScore.swift in Sources */,
+				B9887F931E9F4BEC00090593 /* MainMenuViewController.swift in Sources */,
+				B9887F8C1E9DE83600090593 /* PopulationScript.swift in Sources */,
+				B9887F971E9F692100090593 /* TimeAttackScore.swift in Sources */,
+				B919152D1EA079C9007854EC /* UIColor+ColorConstants.swift in Sources */,
 				B96E8CD41E7B7A9800BB4A42 /* AppDelegate.swift in Sources */,
+				B9887F951E9F675D00090593 /* Score.swift in Sources */,
+				B9887F991E9F697B00090593 /* SurvivalScore.swift in Sources */,
+				B9887F861E9DB46800090593 /* Answer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -376,6 +480,7 @@
 				B96E8CE41E7B7A9800BB4A42 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

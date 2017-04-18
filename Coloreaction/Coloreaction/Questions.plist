@@ -1,0 +1,863 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>difficulty</key>
+		<integer>0</integer>
+		<key>question</key>
+		<string>Los ___________ son sustancias que al ser aplicadas a una sustancia ceden su color a la sustancia.</string>
+		<key>answer</key>
+		<string>Colorantes</string>
+		<key>possibleAnswers</key>
+		<array>
+			<string>Colorantes</string>
+			<string>Azoicos</string>
+			<string>Carbonillo</string>
+			<string>Ninguna de las anteriores.</string>
+		</array>
+		<key>imageData</key>
+		<data></data>
+		<key>score</key>
+		<integer>5</integer>
+		<key>topic</key>
+		<string>Colorantes</string>
+		<key>isImageQuestion</key>
+		<false/>
+	</dict>
+	<dict>
+		<key>difficulty</key>
+		<integer>0</integer>
+		<key>question</key>
+		<string>Los colorantes son conocidos como anilinas, estas son productos no capaces de ceder su propio color a otros materiales.</string>
+		<key>answer</key>
+		<string>Falso</string>
+		<key>possibleAnswers</key>
+		<array>
+			<string>Verdadero</string>
+			<string>Falso</string>
+		</array>
+		<key>imageData</key>
+		<data></data>
+		<key>score</key>
+		<integer>5</integer>
+		<key>topic</key>
+		<string>Colorantes</string>
+		<key>isImageQuestion</key>
+		<false/>
+	</dict>
+	<dict>
+		<key>difficulty</key>
+		<integer>1</integer>
+		<key>question</key>
+		<string>Los colorantes industriales más importantes son los ________. Se caracterizan por la presencia de un grupo azo –N=N– en la molécula.</string>
+		<key>answer</key>
+		<string>Azoicos</string>
+		<key>possibleAnswers</key>
+		<array>
+			<string>Colorantes</string>
+			<string>Azoicos</string>
+			<string>Carbonillo</string>
+			<string>Ninguna de las anteriores</string>
+		</array>
+		<key>imageData</key>
+		<data></data>
+		<key>score</key>
+		<integer>10</integer>
+		<key>topic</key>
+		<string>Colorantes</string>
+		<key>isImageQuestion</key>
+		<false/>
+	</dict>
+	<dict>
+		<key>difficulty</key>
+		<integer>1</integer>
+		<key>question</key>
+		<string>Las ____________ son un grupo de pigmentos de color rojo, hidrosolubles, ampliamente distribuidos en el reino vegetal.</string>
+		<key>answer</key>
+		<string>Antocianinas</string>
+		<key>possibleAnswers</key>
+		<array>
+			<string>Colorantes</string>
+			<string>Antocianinas</string>
+			<string>Moleculas</string>
+			<string>Ninguna de las anteriores</string>
+		</array>
+		<key>imageData</key>
+		<data></data>
+		<key>score</key>
+		<integer>10</integer>
+		<key>topic</key>
+		<string>Color y estructura química</string>
+		<key>isImageQuestion</key>
+		<false/>
+	</dict>
+	<dict>
+		<key>difficulty</key>
+		<integer>0</integer>
+		<key>question</key>
+		<string>De que color es el benceno?</string>
+		<key>answer</key>
+		<string>Ninguna de las anteriores</string>
+		<key>possibleAnswers</key>
+		<array>
+			<string>Azul claro</string>
+			<string>Rojo intenso</string>
+			<string>Verde</string>
+			<string>Ninguna de las anteriores</string>
+		</array>
+		<key>imageData</key>
+		<data></data>
+		<key>score</key>
+		<integer>5</integer>
+		<key>topic</key>
+		<string>Color y estructura química</string>
+		<key>isImageQuestion</key>
+		<false/>
+	</dict>
+	<dict>
+		<key>difficulty</key>
+		<integer>0</integer>
+		<key>question</key>
+		<string>La para - quinona es de color ___________</string>
+		<key>answer</key>
+		<string>Amarillo</string>
+		<key>possibleAnswers</key>
+		<array>
+			<string>Morado</string>
+			<string>Rojo</string>
+			<string>Amarillo</string>
+			<string>Verde</string>
+		</array>
+		<key>imageData</key>
+		<data></data>
+		<key>score</key>
+		<integer>5</integer>
+		<key>topic</key>
+		<string>Color y estructura química</string>
+		<key>isImageQuestion</key>
+		<false/>
+	</dict>
+	<dict>
+		<key>difficulty</key>
+		<integer>0</integer>
+		<key>question</key>
+		<string>La forma estable de orto- quinona es de color ________</string>
+		<key>answer</key>
+		<string>Rojo</string>
+		<key>possibleAnswers</key>
+		<array>
+			<string>Morado</string>
+			<string>Rojo</string>
+			<string>Amarillo</string>
+			<string>Verde</string>
+		</array>
+		<key>imageData</key>
+		<data></data>
+		<key>score</key>
+		<integer>5</integer>
+		<key>topic</key>
+		<string>Color y estructura química</string>
+		<key>isImageQuestion</key>
+		<false/>
+	</dict>
+	<dict>
+		<key>difficulty</key>
+		<integer>1</integer>
+		<key>question</key>
+		<string>El color aparece como consecuencia de dos agrupaciones atómicas diferentes: el ________ y el ___________</string>
+		<key>answer</key>
+		<string>Cromoforo y auxocromo</string>
+		<key>possibleAnswers</key>
+		<array>
+			<string>Cromoforo y auxocromo</string>
+			<string>Hierro y ácido clorhídrico</string>
+			<string>Hidrógeno y oxígeno</string>
+			<string>Sodio y oxígeno</string>
+		</array>
+		<key>imageData</key>
+		<data></data>
+		<key>score</key>
+		<integer>10</integer>
+		<key>topic</key>
+		<string>Color y estructura química</string>
+		<key>isImageQuestion</key>
+		<false/>
+	</dict>
+	<dict>
+		<key>difficulty</key>
+		<integer>1</integer>
+		<key>question</key>
+		<string>El grupo cromoforo es un grupo funcional tal como –C=C–, –N=N– (grupo azo) y anillos aromáticos.</string>
+		<key>answer</key>
+		<string>Verdadero</string>
+		<key>possibleAnswers</key>
+		<array>
+			<string>Verdadero</string>
+			<string>Falso</string>
+		</array>
+		<key>imageData</key>
+		<data></data>
+		<key>score</key>
+		<integer>10</integer>
+		<key>topic</key>
+		<string>Color y estructura química</string>
+		<key>isImageQuestion</key>
+		<false/>
+	</dict>
+	<dict>
+		<key>difficulty</key>
+		<integer>0</integer>
+		<key>question</key>
+		<string>Cromoforo viene de la palabra griega, Chromos que significa _______ y  foros que significa ________.</string>
+		<key>answer</key>
+		<string>Color y portador</string>
+		<key>possibleAnswers</key>
+		<array>
+			<string>Color y portador</string>
+			<string>Grupos y portador</string>
+			<string>Color y fuego</string>
+			<string>Ninguna de las anteriores</string>
+		</array>
+		<key>imageData</key>
+		<data></data>
+		<key>score</key>
+		<integer>5</integer>
+		<key>topic</key>
+		<string>Color y estructura química</string>
+		<key>isImageQuestion</key>
+		<false/>
+	</dict>
+	<dict>
+		<key>difficulty</key>
+		<integer>1</integer>
+		<key>question</key>
+		<string>¿Cual de los siguientes es un cromoforo principal?</string>
+		<key>answer</key>
+		<string>Todos los anteriores</string>
+		<key>possibleAnswers</key>
+		<array>
+			<string>Azo</string>
+			<string>Carbonillo</string>
+			<string>Nitro</string>
+			<string>Todos los anteriores</string>
+		</array>
+		<key>imageData</key>
+		<data></data>
+		<key>score</key>
+		<integer>10</integer>
+		<key>topic</key>
+		<string>Color y estructura química</string>
+		<key>isImageQuestion</key>
+		<false/>
+	</dict>
+	<dict>
+		<key>difficulty</key>
+		<integer>1</integer>
+		<key>question</key>
+		<string>Anilina también es conocida como ____________ y ____________.</string>
+		<key>answer</key>
+		<string>Amino-benceno y fenilamina</string>
+		<key>possibleAnswers</key>
+		<array>
+			<string>Amino-benceno y fenilamina</string>
+			<string>Acetazolamida y DIAMOX</string>
+			<string>Ácido acetilsalicílico y aspirina</string>
+			<string>Benzafibrato y bezalip</string>
+		</array>
+		<key>imageData</key>
+		<data></data>
+		<key>score</key>
+		<integer>10</integer>
+		<key>topic</key>
+		<string>Anilinas</string>
+		<key>isImageQuestion</key>
+		<false/>
+	</dict>
+	<dict>
+		<key>difficulty</key>
+		<integer>2</integer>
+		<key>question</key>
+		<string>Las anilinas se obtienen por la reducción del nitrobenceno tratándolo con ________ (Fe) y ___________ (HCl).</string>
+		<key>answer</key>
+		<string>Hierro y ácido clorhídrico</string>
+		<key>possibleAnswers</key>
+		<array>
+			<string>Hierro y ácido clorhídrico</string>
+			<string>Fluor y carbono</string>
+			<string>Francio y hafnio</string>
+			<string>Ninguna de las anteriores</string>
+		</array>
+		<key>imageData</key>
+		<data></data>
+		<key>score</key>
+		<integer>15</integer>
+		<key>topic</key>
+		<string>Anilinas</string>
+		<key>isImageQuestion</key>
+		<false/>
+	</dict>
+	<dict>
+		<key>difficulty</key>
+		<integer>0</integer>
+		<key>question</key>
+		<string>Es la materia prima utilizada para la obtención de productos en la industria de los colorantes.</string>
+		<key>answer</key>
+		<string>Anilina</string>
+		<key>possibleAnswers</key>
+		<array>
+			<string>Pintura</string>
+			<string>Anilina</string>
+			<string>Colorantes</string>
+			<string>Ninguna de las anteriores</string>
+		</array>
+		<key>imageData</key>
+		<data></data>
+		<key>score</key>
+		<integer>5</integer>
+		<key>topic</key>
+		<string>Anilinas</string>
+		<key>isImageQuestion</key>
+		<false/>
+	</dict>
+	<dict>
+		<key>difficulty</key>
+		<integer>1</integer>
+		<key>question</key>
+		<string>Los cromoforos que se encuentran en las moléculas determinan el color de las anilinas, si se cambia el grupo funcional así como una diferente posición en la molécula dan otro color u tono</string>
+		<key>answer</key>
+		<string>Verdadero</string>
+		<key>possibleAnswers</key>
+		<array>
+			<string>Verdadero</string>
+			<string>Falso</string>
+		</array>
+		<key>imageData</key>
+		<data></data>
+		<key>score</key>
+		<integer>10</integer>
+		<key>topic</key>
+		<string>Anilinas</string>
+		<key>isImageQuestion</key>
+		<false/>
+	</dict>
+	<dict>
+		<key>difficulty</key>
+		<integer>0</integer>
+		<key>question</key>
+		<string>Los pigmentos orgánicos se dividen en dos subcategorías: __________ y _______.</string>
+		<key>answer</key>
+		<string>Naturales y sintéticos</string>
+		<key>possibleAnswers</key>
+		<array>
+			<string>Orgánicos e inorgánicos</string>
+			<string>Naturales y sintéticos</string>
+			<string>Contaminantes y ecológicos</string>
+			<string>Ninguna de las anteriores</string>
+		</array>
+		<key>imageData</key>
+		<data></data>
+		<key>score</key>
+		<integer>5</integer>
+		<key>topic</key>
+		<string>Pigmentos orgánicos naturales</string>
+		<key>isImageQuestion</key>
+		<false/>
+	</dict>
+	<dict>
+		<key>difficulty</key>
+		<integer>0</integer>
+		<key>question</key>
+		<string>El palo de Campeche y la cochinilla son ejemplos de pigmentos orgánicos _________.</string>
+		<key>answer</key>
+		<string>Naturales</string>
+		<key>possibleAnswers</key>
+		<array>
+			<string>Compuestos</string>
+			<string>Sintéticos</string>
+			<string>Contaminantes</string>
+			<string>Naturales</string>
+		</array>
+		<key>imageData</key>
+		<data></data>
+		<key>score</key>
+		<integer>5</integer>
+		<key>topic</key>
+		<string>Pigmentos orgánicos naturales</string>
+		<key>isImageQuestion</key>
+		<false/>
+	</dict>
+	<dict>
+		<key>difficulty</key>
+		<integer>1</integer>
+		<key>question</key>
+		<string>El __________ de _________ es un rojo natural que se obtiene del árbol Caesalpinia brasiliensis y su nombre proviene de la palabra brasa, que significa “brillante como el fuego”. Su compuesto colorante es el brazilin. C16H14O5.</string>
+		<key>answer</key>
+		<string>Palo de Brasil</string>
+		<key>possibleAnswers</key>
+		<array>
+			<string>Palo de Brasil</string>
+			<string>Palo de Perú</string>
+			<string>Árbol de Brasil</string>
+			<string>Palo de Brasilia</string>
+		</array>
+		<key>imageData</key>
+		<data></data>
+		<key>score</key>
+		<integer>10</integer>
+		<key>topic</key>
+		<string>Pigmentos orgánicos naturales</string>
+		<key>isImageQuestion</key>
+		<false/>
+	</dict>
+	<dict>
+		<key>difficulty</key>
+		<integer>1</integer>
+		<key>question</key>
+		<string>La cochinilla es un colorante natural, que se obtiene del la hembra del insecto, Coccus cacti, que habita principalmente en México, Centro y Sudamérica. Este colorante fue introducido a Europa después de la conquista de México en 1523.El colorante principal del extracto de la cochinilla es el ______________ (C22H20O13).</string>
+		<key>answer</key>
+		<string>Ácido carmínico</string>
+		<key>possibleAnswers</key>
+		<array>
+			<string>Carbono, hidrógeno y oxígeno</string>
+			<string>Ácido carmínico</string>
+			<string>Ácido acetilsalicílico</string>
+			<string>Ácido sódico</string>
+		</array>
+		<key>imageData</key>
+		<data></data>
+		<key>score</key>
+		<integer>10</integer>
+		<key>topic</key>
+		<string>Pigmentos orgánicos naturales</string>
+		<key>isImageQuestion</key>
+		<false/>
+	</dict>
+	<dict>
+		<key>difficulty</key>
+		<integer>1</integer>
+		<key>question</key>
+		<string>El proceso de macerar la planta recién cortada y empacarla en grandes tanques para su fermentación, en donde la glucosa es hidrolizada y el precipitado es cribado y secado en pastas, es para la obtención del pigmento llamado: ___________. </string>
+		<key>answer</key>
+		<string>Índigo</string>
+		<key>possibleAnswers</key>
+		<array>
+			<string>Rojo</string>
+			<string>Conservador</string>
+			<string>Índigo</string>
+			<string>Anilina</string>
+		</array>
+		<key>imageData</key>
+		<data></data>
+		<key>score</key>
+		<integer>10</integer>
+		<key>topic</key>
+		<string>Pigmentos orgánicos naturales</string>
+		<key>isImageQuestion</key>
+		<false/>
+	</dict>
+	<dict>
+		<key>difficulty</key>
+		<integer>0</integer>
+		<key>question</key>
+		<string>La forma colora del índigo es de color </string>
+		<key>answer</key>
+		<string>Azul</string>
+		<key>possibleAnswers</key>
+		<array>
+			<string>Azul</string>
+			<string>Rojo</string>
+			<string>Amarillo</string>
+			<string>Verde</string>
+		</array>
+		<key>imageData</key>
+		<data></data>
+		<key>score</key>
+		<integer>5</integer>
+		<key>topic</key>
+		<string>Pigmentos orgánicos naturales</string>
+		<key>isImageQuestion</key>
+		<false/>
+	</dict>
+	<dict>
+		<key>difficulty</key>
+		<integer>1</integer>
+		<key>question</key>
+		<string>Los pigmentos orgánicos ___________ son aquellos que se obtienen por procesos químicos y en su mayoría se derivan de fenoles, anilina, antracenos y otros.</string>
+		<key>answer</key>
+		<string>Sintéticos</string>
+		<key>possibleAnswers</key>
+		<array>
+			<string>Sintéticos</string>
+			<string>Naturales</string>
+			<string>Conservadores</string>
+			<string>Contaminantes</string>
+		</array>
+		<key>imageData</key>
+		<data></data>
+		<key>score</key>
+		<integer>10</integer>
+		<key>topic</key>
+		<string>Pigmentos orgánicos sintéticos</string>
+		<key>isImageQuestion</key>
+		<false/>
+	</dict>
+	<dict>
+		<key>difficulty</key>
+		<integer>1</integer>
+		<key>question</key>
+		<string>Los pigmentos inorgánicos naturales se pueden obtenr por diferentes procesos químicos, en los cuales se ve involucrada la precipitación de compuestos. ¿Cuál de las siguientes opciones NO es una manera de obtener dicha precipitación?</string>
+		<key>answer</key>
+		<string>Incremento de los moles de uno de los reactivos</string>
+		<key>possibleAnswers</key>
+		<array>
+			<string>Con la presencia de una base insoluble</string>
+			<string>Por medio de la obtención de un material insoluble</string>
+			<string>Incremento de los moles de uno de los reactivos</string>
+			<string>A través de la co-precipitación</string>
+		</array>
+		<key>imageData</key>
+		<data></data>
+		<key>score</key>
+		<integer>10</integer>
+		<key>topic</key>
+		<string>Pigmentos orgánicos sintéticos</string>
+		<key>isImageQuestion</key>
+		<false/>
+	</dict>
+	<dict>
+		<key>difficulty</key>
+		<integer>0</integer>
+		<key>question</key>
+		<string>¿Cuáles son las dos reacciones principales que es necesario realizar para obtener los colorantes?</string>
+		<key>answer</key>
+		<string>Reacción de diazotación y reacción de copulación</string>
+		<key>possibleAnswers</key>
+		<array>
+			<string>Reacción sódica y reacción química</string>
+			<string>Reacción de diazotación y reacción de copulación</string>
+			<string>Reacción de copulación y reacción sódica</string>
+			<string>Reacción de diazotación y reacción sódica</string>
+		</array>
+		<key>imageData</key>
+		<data></data>
+		<key>score</key>
+		<integer>5</integer>
+		<key>topic</key>
+		<string>Obtención de colorantes</string>
+		<key>isImageQuestion</key>
+		<false/>
+	</dict>
+	<dict>
+		<key>difficulty</key>
+		<integer>0</integer>
+		<key>question</key>
+		<string>Es la reacción más importante que utiliza una amina aromatica y ácido nítrico para formar sales de diazonio.</string>
+		<key>answer</key>
+		<string>Reacción de diazotación</string>
+		<key>possibleAnswers</key>
+		<array>
+			<string>Reacción redox</string>
+			<string>Reacción de copulación</string>
+			<string>Reacción por reducción catalítica</string>
+			<string>Reacción de diazotación</string>
+		</array>
+		<key>imageData</key>
+		<data></data>
+		<key>score</key>
+		<integer>5</integer>
+		<key>topic</key>
+		<string>Obtención de colorantes</string>
+		<key>isImageQuestion</key>
+		<false/>
+	</dict>
+	<dict>
+		<key>difficulty</key>
+		<integer>1</integer>
+		<key>question</key>
+		<string>Utiliza una amina aromática y ácido nítrico en presencia de ácido clorhídrico y nitrito de sodio para formar ___________.</string>
+		<key>answer</key>
+		<string>Sales de diazonio</string>
+		<key>possibleAnswers</key>
+		<array>
+			<string>Sales de sodio</string>
+			<string>Sal</string>
+			<string>Sales de diazonio</string>
+			<string>Sales de carbonio</string>
+		</array>
+		<key>imageData</key>
+		<data></data>
+		<key>score</key>
+		<integer>10</integer>
+		<key>topic</key>
+		<string>Obtención de colorantes</string>
+		<key>isImageQuestion</key>
+		<false/>
+	</dict>
+	<dict>
+		<key>difficulty</key>
+		<integer>1</integer>
+		<key>question</key>
+		<string>La amina aromática utilizada en la reacción de diazotacion es conocida como _______. Esta se obtiene por la reducción del nitrobenceno tratándolo con Fe y Hcl.</string>
+		<key>answer</key>
+		<string>Anilina</string>
+		<key>possibleAnswers</key>
+		<array>
+			<string>Fenilananina</string>
+			<string>Índigo</string>
+			<string>Anilina</string>
+			<string>Antilina</string>
+		</array>
+		<key>imageData</key>
+		<data></data>
+		<key>score</key>
+		<integer>10</integer>
+		<key>topic</key>
+		<string>Obtención de colorantes</string>
+		<key>isImageQuestion</key>
+		<false/>
+	</dict>
+	<dict>
+		<key>difficulty</key>
+		<integer>2</integer>
+		<key>question</key>
+		<string>Si la diazotacion ocurre satisfactoriamente la amina debe estar en una solución de ______ acuoso.</string>
+		<key>answer</key>
+		<string>Ácido</string>
+		<key>possibleAnswers</key>
+		<array>
+			<string>Base</string>
+			<string>Ácido</string>
+		</array>
+		<key>imageData</key>
+		<data></data>
+		<key>score</key>
+		<integer>15</integer>
+		<key>topic</key>
+		<string>Obtención de colorantes</string>
+		<key>isImageQuestion</key>
+		<false/>
+	</dict>
+	<dict>
+		<key>difficulty</key>
+		<integer>2</integer>
+		<key>question</key>
+		<string>En una diazotacion es necesario mantener baja la temperatura, normalmente entre:</string>
+		<key>answer</key>
+		<string>0 - 5 ºC</string>
+		<key>possibleAnswers</key>
+		<array>
+			<string>5 - 10 ºC</string>
+			<string>0 - 5 ºC</string>
+			<string>-5 - -0 ºC</string>
+			<string>10 - 20 ºC</string>
+		</array>
+		<key>imageData</key>
+		<data></data>
+		<key>score</key>
+		<integer>15</integer>
+		<key>topic</key>
+		<string>Obtención de colorantes</string>
+		<key>isImageQuestion</key>
+		<false/>
+	</dict>
+	<dict>
+		<key>difficulty</key>
+		<integer>1</integer>
+		<key>question</key>
+		<string>Las sales de diazonio son compuestos estables y actúan como _________ en la reacción de copulación.</string>
+		<key>answer</key>
+		<string>Electrofilos débiles</string>
+		<key>possibleAnswers</key>
+		<array>
+			<string>Electrofilos débiles</string>
+			<string>Electrofilos fuertes</string>
+		</array>
+		<key>imageData</key>
+		<data></data>
+		<key>score</key>
+		<integer>10</integer>
+		<key>topic</key>
+		<string>Obtención de colorantes</string>
+		<key>isImageQuestion</key>
+		<false/>
+	</dict>
+	<dict>
+		<key>difficulty</key>
+		<integer>0</integer>
+		<key>question</key>
+		<string>La copulación es la reacción entre el compuesto diazonio y un compuesto fenólico para formar un compuesto llamado azo. Estos compuestos son llamados asi porque tienen uno o más grupos azo.</string>
+		<key>answer</key>
+		<string>Verdadero</string>
+		<key>possibleAnswers</key>
+		<array>
+			<string>Verdadero</string>
+			<string>Falso</string>
+		</array>
+		<key>imageData</key>
+		<data></data>
+		<key>score</key>
+		<integer>5</integer>
+		<key>topic</key>
+		<string>Obtención de colorantes</string>
+		<key>isImageQuestion</key>
+		<false/>
+	</dict>
+	<dict>
+		<key>difficulty</key>
+		<integer>0</integer>
+		<key>question</key>
+		<string>Mencione si el siguiente enunciado es verdadero o falso: “Se le llama “pigmento orgánico sintético” a aquellas sustancias colorantes que a partir de materias primas básicas y productos intermedios han sido manufacturadas mediante la construcción de estructuras responsables de dar color”.</string>
+		<key>answer</key>
+		<string>Verdadero</string>
+		<key>possibleAnswers</key>
+		<array>
+			<string>Verdadero</string>
+			<string>Falso</string>
+		</array>
+		<key>imageData</key>
+		<data></data>
+		<key>score</key>
+		<integer>5</integer>
+		<key>topic</key>
+		<string>Pigmentos orgánicos sintéticos</string>
+		<key>isImageQuestion</key>
+		<false/>
+	</dict>
+	<dict>
+		<key>difficulty</key>
+		<integer>2</integer>
+		<key>question</key>
+		<string>¿A través de cuantos números de métodos generales existentes se pueden manufacturar los pigmentos orgánicos?</string>
+		<key>answer</key>
+		<string>3</string>
+		<key>possibleAnswers</key>
+		<array>
+			<string>2</string>
+			<string>3</string>
+			<string>4</string>
+			<string>5</string>
+		</array>
+		<key>imageData</key>
+		<data></data>
+		<key>score</key>
+		<integer>15</integer>
+		<key>topic</key>
+		<string>Pigmentos orgánicos sintéticos</string>
+		<key>isImageQuestion</key>
+		<false/>
+	</dict>
+	<dict>
+		<key>difficulty</key>
+		<integer>2</integer>
+		<key>question</key>
+		<string>¿La mayor parte de los pigmentos orgánicos se obtienen a través de cuales 2 métodos?</string>
+		<key>answer</key>
+		<string>1. Por medio de la combinación de 2 o más productos intermedios para formar un compuesto colorante insoluble y 2. Por la formación de un pigmento insoluble a partir de un colorante previamente obtenido de uno o más productos intermedio</string>
+		<key>possibleAnswers</key>
+		<array>
+			<string>1. Por medio del tratamiento a materias primas o a productos intermedios de tal manera que se convierten en productos colorantes insolubles y 2. Por medio de la combinación de 2 o más productos intermedios para formar un compuesto colorante insoluble</string>
+			<string>1. Por medio de la combinación de 2 o más productos intermedios para formar un compuesto colorante insoluble y 2. Por la formación de un pigmento insoluble a partir de un colorante previamente obtenido de uno o más productos intermedio</string>
+			<string>1. Por la formación de un pigmento insoluble a partir de un colorante previamente obtenido de uno o más productos intermedios y 2. Por medio de la combinación de 2 o más productos intermedios para formar un compuesto colorante insoluble</string>
+		</array>
+		<key>imageData</key>
+		<data></data>
+		<key>score</key>
+		<integer>15</integer>
+		<key>topic</key>
+		<string>Pigmentos orgánicos sintéticos</string>
+		<key>isImageQuestion</key>
+		<false/>
+	</dict>
+	<dict>
+		<key>difficulty</key>
+		<integer>2</integer>
+		<key>question</key>
+		<string>Las reacciones de nitruración, reducción de amino-compuestos, reducción de hierro-acido, reducción estanño-acido y reducción alcalina del sulfato y polisulfato, son algunas de las principales reacciones de:</string>
+		<key>answer</key>
+		<string>Intermediación</string>
+		<key>possibleAnswers</key>
+		<array>
+			<string>Intermediación</string>
+			<string>Polimerización</string>
+			<string>Las dos anteriores</string>
+			<string>Ninguna de las anteriores</string>
+		</array>
+		<key>imageData</key>
+		<data></data>
+		<key>score</key>
+		<integer>15</integer>
+		<key>topic</key>
+		<string>Pigmentos orgánicos sintéticos</string>
+		<key>isImageQuestion</key>
+		<false/>
+	</dict>
+	<dict>
+		<key>difficulty</key>
+		<integer>1</integer>
+		<key>question</key>
+		<string>Mencione si el enunciado es verdadero o falso: “Los productos intermediarios, usados en la manufactura de los pigmentos orgánicos sintéticos, son compuestos químicos generalmente incoloros que se derivan de las materias primas y que son convertidos en colorantes y otros intermedios¨.</string>
+		<key>answer</key>
+		<string>Verdadero</string>
+		<key>possibleAnswers</key>
+		<array>
+			<string>Verdadero</string>
+			<string>Falso</string>
+		</array>
+		<key>imageData</key>
+		<data></data>
+		<key>score</key>
+		<integer>10</integer>
+		<key>topic</key>
+		<string>Pigmentos orgánicos sintéticos</string>
+		<key>isImageQuestion</key>
+		<false/>
+	</dict>
+	<dict>
+		<key>difficulty</key>
+		<integer>1</integer>
+		<key>question</key>
+		<string>¿Cuál de las siguientes son materias primas fundamentales para la manufactura de pigmentos orgánicos?</string>
+		<key>answer</key>
+		<string>Todas las anteriores</string>
+		<key>possibleAnswers</key>
+		<array>
+			<string>Antraceno</string>
+			<string>Tolueno</string>
+			<string>Benceno</string>
+			<string>Todas las anteriores</string>
+		</array>
+		<key>imageData</key>
+		<data></data>
+		<key>score</key>
+		<integer>10</integer>
+		<key>topic</key>
+		<string>Pigmentos orgánicos sintéticos</string>
+		<key>isImageQuestion</key>
+		<false/>
+	</dict>
+	<dict>
+		<key>difficulty</key>
+		<integer>2</integer>
+		<key>question</key>
+		<string>¿Cuáles son las dos características que tienen mayor importancia en la clasificación de los pigmentos?</string>
+		<key>answer</key>
+		<string>Fineza y textura</string>
+		<key>possibleAnswers</key>
+		<array>
+			<string>Fineza y color</string>
+			<string>Fineza y textura</string>
+			<string>Textura y color</string>
+			<string>Textura y base</string>
+		</array>
+		<key>imageData</key>
+		<data></data>
+		<key>score</key>
+		<integer>15</integer>
+		<key>topic</key>
+		<string>Pigmentos orgánicos sintéticos</string>
+		<key>isImageQuestion</key>
+		<false/>
+	</dict>
+</array>
+</plist>
