@@ -13,12 +13,17 @@ import AVFoundation
 class MainMenuViewController: UIViewController, UITableViewDataSource, ReloadHighscores, ClearHighscores, ChangeAppVolume, ReplayMainMenuMusic, AVAudioPlayerDelegate {
     
     @IBOutlet weak var highscoresTableView: UITableView!
-    @IBOutlet weak var timeAttackButton: UIButton!
+    @IBOutlet weak var timeAttackButton: UIButton! {
+        willSet {
+            newValue.titleLabel?.minimumScaleFactor = 0.2
+            newValue.titleLabel?.numberOfLines = 1
+            newValue.titleLabel?.adjustsFontSizeToFitWidth = true
+        }
+    }
     @IBOutlet weak var blitzButton: UIButton!
     @IBOutlet weak var survivalButton: UIButton!
     @IBOutlet weak var endlessButton: UIButton!
     @IBOutlet weak var startButton: UIButton!
-    
     var highscores = [Score]()
     /*
      - Game mode code signing is as follows:
@@ -54,6 +59,10 @@ class MainMenuViewController: UIViewController, UITableViewDataSource, ReloadHig
         changeHighscoreTable(self.timeAttackButton)
 
         // Do any additional setup after loading the view.
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        self.displayNoneInTableViewIfNeeded()
     }
 
     override func didReceiveMemoryWarning() {
@@ -102,8 +111,6 @@ class MainMenuViewController: UIViewController, UITableViewDataSource, ReloadHig
         }
         
         self.startButton.isHidden = false
-        
-        displayNoneInTableViewIfNeeded()
         
         self.highscoresTableView.reloadData()
     }

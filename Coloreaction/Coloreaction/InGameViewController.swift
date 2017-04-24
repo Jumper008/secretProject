@@ -24,11 +24,35 @@ class InGameViewController: UIViewController, AVAudioPlayerDelegate {
     @IBOutlet weak var pauseButton: UIButton!
     @IBOutlet weak var timerLabel: UILabel!
     @IBOutlet weak var questionUIView: UIView!
-    @IBOutlet weak var possibleAnswer1: UIButton!
-    @IBOutlet weak var possibleAnswer2: UIButton!
-    @IBOutlet weak var possibleAnswer3: UIButton!
-    @IBOutlet weak var possibleAnswer4: UIButton!
-    @IBOutlet weak var questionLabel: UILabel!
+    @IBOutlet weak var possibleAnswer1: UIButton! {
+        willSet {
+            newValue.titleLabel?.minimumScaleFactor = 0.2
+            newValue.titleLabel?.numberOfLines = 1
+            newValue.titleLabel?.adjustsFontSizeToFitWidth = true
+        }
+    }
+    @IBOutlet weak var possibleAnswer2: UIButton! {
+        willSet {
+            newValue.titleLabel?.minimumScaleFactor = 0.2
+            newValue.titleLabel?.numberOfLines = 1
+            newValue.titleLabel?.adjustsFontSizeToFitWidth = true
+        }
+    }
+    @IBOutlet weak var possibleAnswer3: UIButton! {
+        willSet {
+            newValue.titleLabel?.minimumScaleFactor = 0.2
+            newValue.titleLabel?.numberOfLines = 1
+            newValue.titleLabel?.adjustsFontSizeToFitWidth = true
+        }
+    }
+    @IBOutlet weak var possibleAnswer4: UIButton! {
+        willSet {
+            newValue.titleLabel?.minimumScaleFactor = 0.2
+            newValue.titleLabel?.numberOfLines = 1
+            newValue.titleLabel?.adjustsFontSizeToFitWidth = true
+        }
+    }
+    @IBOutlet weak var questionTextView: UITextView!
     @IBOutlet weak var addedScoreLabel: UILabel!
     
     /*
@@ -172,7 +196,7 @@ class InGameViewController: UIViewController, AVAudioPlayerDelegate {
         self.possibleAnswer3.setTitleColor(self.gameColor, for: UIControlState.normal)
         self.possibleAnswer4.layer.borderColor = self.gameColor.cgColor
         self.possibleAnswer4.setTitleColor(self.gameColor, for: UIControlState.normal)
-        self.questionLabel.textColor = self.gameColor
+        self.questionTextView.textColor = self.gameColor
         self.addedScoreLabel.textColor = self.gameColor
     }
     
@@ -334,7 +358,7 @@ class InGameViewController: UIViewController, AVAudioPlayerDelegate {
         self.possibleAnswer4.isHidden = true
         let random = arc4random_uniform(UInt32(self.possibleQuestions.count))
         self.currentQuestion = self.possibleQuestions.remove(at: Int(random))
-        self.questionLabel.text = self.currentQuestion.question
+        self.questionTextView.text = self.currentQuestion.question
         let possibleAnswers = self.currentQuestion.possibleAnswers
         self.possibleAnswer1.setTitle(possibleAnswers[0].answer, for: UIControlState.normal)
         self.possibleAnswer1.isHidden = false
@@ -455,7 +479,7 @@ class InGameViewController: UIViewController, AVAudioPlayerDelegate {
     @IBAction func pauseGame(_ sender: Any) {
         self.gameAudioPlayer.pause()
         self.gameTimer.invalidate()
-        self.questionLabel.textColor = UIColor.white
+        self.questionTextView.textColor = UIColor.white
         // UIView set up
         var frame = self.view.frame
         self.shadowView = UIView(frame: frame)
@@ -478,7 +502,7 @@ class InGameViewController: UIViewController, AVAudioPlayerDelegate {
     func continueGame() {
         self.gameAudioPlayer.play()
         self.gameTimer = Timer.scheduledTimer(timeInterval: 1.0, target: self, selector: #selector(updateTotalGameTime), userInfo: nil, repeats: true)
-        self.questionLabel.textColor = self.gameColor
+        self.questionTextView.textColor = self.gameColor
         self.continueGameButton.removeFromSuperview()
         self.shadowView.removeFromSuperview()
     }
