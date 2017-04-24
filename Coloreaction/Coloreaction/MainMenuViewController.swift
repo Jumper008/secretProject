@@ -38,7 +38,7 @@ class MainMenuViewController: UIViewController, UITableViewDataSource, ReloadHig
     let mainMenuMusic = NSURL(fileURLWithPath: Bundle.main.path(forResource: "MainMenu", ofType: "wav")!)
     var audioPlayer = AVAudioPlayer()
     var appVolume: Float = 1.0
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -57,14 +57,14 @@ class MainMenuViewController: UIViewController, UITableViewDataSource, ReloadHig
         self.audioPlayer.delegate = self
         
         changeHighscoreTable(self.timeAttackButton)
-
+        
         // Do any additional setup after loading the view.
     }
     
     override func viewDidAppear(_ animated: Bool) {
         self.displayNoneInTableViewIfNeeded()
     }
-
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
@@ -245,16 +245,24 @@ class MainMenuViewController: UIViewController, UITableViewDataSource, ReloadHig
     
     func changeAppVolume(_ volume: Float) {
         self.appVolume = volume
-        self.audioPlayer.setVolume(volume, fadeDuration: 1.0)
+        if #available(iOS 10.0, *) {
+            self.audioPlayer.setVolume(volume, fadeDuration: 1.0)
+        } else {
+            self.audioPlayer.volume = volume
+        }
     }
     
     func replayMainMenuMusic() {
-        self.audioPlayer.setVolume(self.appVolume, fadeDuration: 1.0)
+        if #available(iOS 10.0, *) {
+            self.audioPlayer.setVolume(self.appVolume, fadeDuration: 1.0)
+        } else {
+            self.audioPlayer.volume = self.appVolume
+        }
         self.audioPlayer.play()
     }
     
     // MARK: - Navigation
-
+    
     // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         // Get the new view controller using segue.destinationViewController.
@@ -273,5 +281,108 @@ class MainMenuViewController: UIViewController, UITableViewDataSource, ReloadHig
             let settingsMenuUIViewController = segue.destination as! SettingsMenuViewController
             settingsMenuUIViewController.delegate = self
         }
+    }
+}
+
+extension UIFont {
+    
+    enum TextStyle {
+        case heading1
+        case heading2
+        case heading3
+        case heading4
+        case heading5
+        case bodyCopy1
+        case bodyCopy2
+        case bodyCopy3
+        case buttonText1
+        case buttonText2
+        case smallPrint
+    }
+    
+    class func font(for style: TextStyle) -> UIFont {
+        
+        var fontSize: CGFloat = 12
+        
+        if UIDevice.current.userInterfaceIdiom == .pad {
+            switch style {
+            case .heading1:
+                fontSize = 40
+            case .heading2:
+                fontSize = 32
+            case .heading3:
+                fontSize = 27
+            case .heading4:
+                fontSize = 24
+            case .heading5:
+                fontSize = 21
+            case .bodyCopy1:
+                fontSize = 18
+            case .bodyCopy2:
+                fontSize = 16
+            case .bodyCopy3:
+                fontSize = 14
+            case .buttonText1:
+                fontSize = 18
+            case .buttonText2:
+                fontSize = 16
+            case .smallPrint:
+                fontSize = 11
+            }
+        } else {
+            if UIScreen.main.bounds.size.height <= 568 {
+                switch style {
+                case .heading1:
+                    fontSize = 20
+                case .heading2:
+                    fontSize = 18
+                case .heading3:
+                    fontSize = 16
+                case .heading4:
+                    fontSize = 16
+                case .heading5:
+                    fontSize = 14
+                case .bodyCopy1:
+                    fontSize = 14
+                case .bodyCopy2:
+                    fontSize = 13
+                case .bodyCopy3:
+                    fontSize = 10
+                case .buttonText1:
+                    fontSize = 14
+                case .buttonText2:
+                    fontSize = 11
+                case .smallPrint:
+                    fontSize = 10
+                }
+            } else {
+                switch style {
+                case .heading1:
+                    fontSize = 24
+                case .heading2:
+                    fontSize = 22
+                case .heading3:
+                    fontSize = 20
+                case .heading4:
+                    fontSize = 18
+                case .heading5:
+                    fontSize = 16
+                case .bodyCopy1:
+                    fontSize = 16
+                case .bodyCopy2:
+                    fontSize = 14
+                case .bodyCopy3:
+                    fontSize = 12
+                case .buttonText1:
+                    fontSize = 16
+                case .buttonText2:
+                    fontSize = 14
+                case .smallPrint:
+                    fontSize = 11
+                }
+            }
+        }
+        
+        return UIFont(name: "HelveticaNeue", size: fontSize)!
     }
 }
