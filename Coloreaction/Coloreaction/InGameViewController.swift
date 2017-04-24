@@ -52,7 +52,13 @@ class InGameViewController: UIViewController, AVAudioPlayerDelegate {
             newValue.titleLabel?.adjustsFontSizeToFitWidth = true
         }
     }
-    @IBOutlet weak var questionTextView: UITextView!
+    @IBOutlet weak var questionTextView: UITextView! {
+        willSet {
+            newValue.isSelectable = true
+            newValue.font = UIFont.font(for: .heading3)
+            newValue.isSelectable = false
+        }
+    }
     @IBOutlet weak var addedScoreLabel: UILabel!
     
     /*
@@ -114,7 +120,11 @@ class InGameViewController: UIViewController, AVAudioPlayerDelegate {
         
         self.gameAudioPlayer.prepareToPlay()
         self.gameAudioPlayer.play()
-        self.gameAudioPlayer.setVolume(self.gameVolume, fadeDuration: 0.0)
+        if #available(iOS 10.0, *) {
+            self.gameAudioPlayer.setVolume(self.gameVolume, fadeDuration: 0.0)
+        } else {
+            self.gameAudioPlayer.volume = self.gameVolume
+        }
         self.gameAudioPlayer.delegate = self
     }
     
@@ -196,7 +206,9 @@ class InGameViewController: UIViewController, AVAudioPlayerDelegate {
         self.possibleAnswer3.setTitleColor(self.gameColor, for: UIControlState.normal)
         self.possibleAnswer4.layer.borderColor = self.gameColor.cgColor
         self.possibleAnswer4.setTitleColor(self.gameColor, for: UIControlState.normal)
+        self.questionTextView.isSelectable = true
         self.questionTextView.textColor = self.gameColor
+        self.questionTextView.isSelectable = false
         self.addedScoreLabel.textColor = self.gameColor
     }
     
@@ -418,7 +430,11 @@ class InGameViewController: UIViewController, AVAudioPlayerDelegate {
         try! self.soundsAudioPlayer = AVAudioPlayer(contentsOf: url as URL)
         self.soundsAudioPlayer.prepareToPlay()
         self.soundsAudioPlayer.play()
-        self.soundsAudioPlayer.setVolume(self.gameVolume, fadeDuration: 1.0)
+        if #available(iOS 10.0, *) {
+            self.soundsAudioPlayer.setVolume(self.gameVolume, fadeDuration: 1.0)
+        } else {
+            self.soundsAudioPlayer.volume = self.gameVolume
+        }
     }
     
     func performActionUponAnsweringAttempt(_ isAnswerCorrect: Bool) {
