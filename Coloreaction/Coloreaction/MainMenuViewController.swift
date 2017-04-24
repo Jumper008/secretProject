@@ -113,6 +113,7 @@ class MainMenuViewController: UIViewController, UITableViewDataSource, ReloadHig
         self.startButton.isHidden = false
         
         self.highscoresTableView.reloadData()
+        self.displayNoneInTableViewIfNeeded()
     }
     
     func displayNoneInTableViewIfNeeded() {

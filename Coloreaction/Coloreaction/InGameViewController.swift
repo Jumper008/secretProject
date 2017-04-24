@@ -27,28 +27,28 @@ class InGameViewController: UIViewController, AVAudioPlayerDelegate {
     @IBOutlet weak var possibleAnswer1: UIButton! {
         willSet {
             newValue.titleLabel?.minimumScaleFactor = 0.2
-            newValue.titleLabel?.numberOfLines = 1
+            newValue.titleLabel?.numberOfLines = 0
             newValue.titleLabel?.adjustsFontSizeToFitWidth = true
         }
     }
     @IBOutlet weak var possibleAnswer2: UIButton! {
         willSet {
             newValue.titleLabel?.minimumScaleFactor = 0.2
-            newValue.titleLabel?.numberOfLines = 1
+            newValue.titleLabel?.numberOfLines = 0
             newValue.titleLabel?.adjustsFontSizeToFitWidth = true
         }
     }
     @IBOutlet weak var possibleAnswer3: UIButton! {
         willSet {
             newValue.titleLabel?.minimumScaleFactor = 0.2
-            newValue.titleLabel?.numberOfLines = 1
+            newValue.titleLabel?.numberOfLines = 0
             newValue.titleLabel?.adjustsFontSizeToFitWidth = true
         }
     }
     @IBOutlet weak var possibleAnswer4: UIButton! {
         willSet {
             newValue.titleLabel?.minimumScaleFactor = 0.2
-            newValue.titleLabel?.numberOfLines = 1
+            newValue.titleLabel?.numberOfLines = 0
             newValue.titleLabel?.adjustsFontSizeToFitWidth = true
         }
     }
