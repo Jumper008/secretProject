@@ -414,7 +414,8 @@
 		<key>difficulty</key>
 		<integer>1</integer>
 		<key>question</key>
-		<string>La cochinilla es un colorante natural, que se obtiene del la hembra del insecto, Coccus cacti, que habita principalmente en México, Centro y Sudamérica. Este colorante fue introducido a Europa después de la conquista de México en 1523.El colorante principal del extracto de la cochinilla es el ______________ (C22H20O13).</string>
+		<string>La cochinilla es un colorante natural, que se obtiene del la hembra del insecto, Coccus cacti, que habita principalmente en México, Centro y Sudamérica. Este colorante fue introducido a Europa después de la conquista de México en 1523.
+El colorante principal del extracto de la cochinilla es el ______________ (C22H20O13).</string>
 		<key>answer</key>
 		<string>Ácido carmínico</string>
 		<key>possibleAnswers</key>
@@ -506,7 +507,7 @@
 		<key>difficulty</key>
 		<integer>1</integer>
 		<key>question</key>
-		<string>Los pigmentos inorgánicos naturales se pueden obtenr por diferentes procesos químicos, en los cuales se ve involucrada la precipitación de compuestos. ¿Cuál de las siguientes opciones NO es una manera de obtener dicha precipitación?</string>
+		<string>Los pigmentos inorgánicos naturales se pueden obtener por diferentes procesos químicos, en los cuales se ve involucrada la precipitación de compuestos. ¿Cuál de las siguientes opciones NO es una manera de obtener dicha precipitación?</string>
 		<key>answer</key>
 		<string>Incremento de los moles de uno de los reactivos</string>
 		<key>possibleAnswers</key>
@@ -737,28 +738,6 @@
 			<string>3</string>
 			<string>4</string>
 			<string>5</string>
-		</array>
-		<key>imageData</key>
-		<data></data>
-		<key>score</key>
-		<integer>15</integer>
-		<key>topic</key>
-		<string>Pigmentos orgánicos sintéticos</string>
-		<key>isImageQuestion</key>
-		<false/>
-	</dict>
-	<dict>
-		<key>difficulty</key>
-		<integer>2</integer>
-		<key>question</key>
-		<string>¿La mayor parte de los pigmentos orgánicos se obtienen a través de cuales 2 métodos?</string>
-		<key>answer</key>
-		<string>1. Por medio de la combinación de 2 o más productos intermedios para formar un compuesto colorante insoluble y 2. Por la formación de un pigmento insoluble a partir de un colorante previamente obtenido de uno o más productos intermedio</string>
-		<key>possibleAnswers</key>
-		<array>
-			<string>1. Por medio del tratamiento a materias primas o a productos intermedios de tal manera que se convierten en productos colorantes insolubles y 2. Por medio de la combinación de 2 o más productos intermedios para formar un compuesto colorante insoluble</string>
-			<string>1. Por medio de la combinación de 2 o más productos intermedios para formar un compuesto colorante insoluble y 2. Por la formación de un pigmento insoluble a partir de un colorante previamente obtenido de uno o más productos intermedio</string>
-			<string>1. Por la formación de un pigmento insoluble a partir de un colorante previamente obtenido de uno o más productos intermedios y 2. Por medio de la combinación de 2 o más productos intermedios para formar un compuesto colorante insoluble</string>
 		</array>
 		<key>imageData</key>
 		<data></data>
