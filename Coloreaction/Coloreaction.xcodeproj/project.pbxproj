@@ -206,7 +206,7 @@
 				TargetAttributes = {
 					B96E8CCF1E7B7A9600BB4A42 = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = F97Z4RY4JT;
+						DevelopmentTeam = 4U3ASR7LV8;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -438,11 +438,11 @@
 			baseConfigurationReference = D277BB5F852AAACA65D7003E /* Pods-Coloreaction.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = F97Z4RY4JT;
+				DEVELOPMENT_TEAM = 4U3ASR7LV8;
 				INFOPLIST_FILE = Coloreaction/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.Coloreaction;
+				PRODUCT_BUNDLE_IDENTIFIER = com.az.Coloreaction;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -454,11 +454,11 @@
 			baseConfigurationReference = F44EB248B73AA28FD0DD07EC /* Pods-Coloreaction.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = F97Z4RY4JT;
+				DEVELOPMENT_TEAM = 4U3ASR7LV8;
 				INFOPLIST_FILE = Coloreaction/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.Coloreaction;
+				PRODUCT_BUNDLE_IDENTIFIER = com.az.Coloreaction;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

@@ -394,6 +394,10 @@ class InGameViewController: UIViewController, AVAudioPlayerDelegate {
     }
     
     @IBAction func checkPressedAnswer(_ sender: UIButton) {
+        self.possibleAnswer1.isEnabled = false
+        self.possibleAnswer2.isEnabled = false
+        self.possibleAnswer3.isEnabled = false
+        self.possibleAnswer4.isEnabled = false
         let chosenAnswer = sender.currentTitle
         if chosenAnswer == self.currentQuestion.answer?.answer
         {
@@ -484,6 +488,10 @@ class InGameViewController: UIViewController, AVAudioPlayerDelegate {
     }
     
     func resetQuestionSettings() {
+        self.possibleAnswer1.isEnabled = true
+        self.possibleAnswer2.isEnabled = true
+        self.possibleAnswer3.isEnabled = true
+        self.possibleAnswer4.isEnabled = true
         setGameColor()
         loadRandomQuestion()
     }
