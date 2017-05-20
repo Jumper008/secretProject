@@ -6,7 +6,7 @@
 		<key>difficulty</key>
 		<integer>0</integer>
 		<key>question</key>
-		<string>Los ___________ son sustancias que al ser aplicadas a una sustancia ceden su color a la sustancia.</string>
+		<string> Los ___________ son sustancias que al ser aplicadas a una sustancia ceden su color a la sustancia. </string>
 		<key>answer</key>
 		<string>Colorantes</string>
 		<key>possibleAnswers</key>
@@ -29,7 +29,7 @@
 		<key>difficulty</key>
 		<integer>0</integer>
 		<key>question</key>
-		<string>Los colorantes son conocidos como anilinas, estas son productos no capaces de ceder su propio color a otros materiales.</string>
+		<string> Los colorantes son conocidos como anilinas, estas son productos no capaces de ceder su propio color a otros materiales. </string>
 		<key>answer</key>
 		<string>Falso</string>
 		<key>possibleAnswers</key>
@@ -52,11 +52,11 @@
 		<key>question</key>
 		<string>Los colorantes industriales más importantes son los ________. Se caracterizan por la presencia de un grupo azo –N=N– en la molécula.</string>
 		<key>answer</key>
-		<string>Azoicos</string>
+		<string>Azóicos </string>
 		<key>possibleAnswers</key>
 		<array>
 			<string>Colorantes</string>
-			<string>Azoicos</string>
+			<string>Azóicos</string>
 			<string>Carbonillo</string>
 			<string>Ninguna de las anteriores</string>
 		</array>
@@ -96,7 +96,7 @@
 		<key>difficulty</key>
 		<integer>0</integer>
 		<key>question</key>
-		<string>De que color es el benceno?</string>
+		<string>De qué color es el benceno?</string>
 		<key>answer</key>
 		<string>Ninguna de las anteriores</string>
 		<key>possibleAnswers</key>
@@ -119,7 +119,7 @@
 		<key>difficulty</key>
 		<integer>0</integer>
 		<key>question</key>
-		<string>La para - quinona es de color ___________</string>
+		<string>La para-quinona es de color ___________</string>
 		<key>answer</key>
 		<string>Amarillo</string>
 		<key>possibleAnswers</key>
@@ -142,7 +142,7 @@
 		<key>difficulty</key>
 		<integer>0</integer>
 		<key>question</key>
-		<string>La forma estable de orto- quinona es de color ________</string>
+		<string>La forma estable de orto-quinona es de color ________</string>
 		<key>answer</key>
 		<string>Rojo</string>
 		<key>possibleAnswers</key>
@@ -257,10 +257,10 @@
 		<key>question</key>
 		<string>Anilina también es conocida como ____________ y ____________.</string>
 		<key>answer</key>
-		<string>Amino-benceno y fenilamina</string>
+		<string>Aminobenceno y fenilamina</string>
 		<key>possibleAnswers</key>
 		<array>
-			<string>Amino-benceno y fenilamina</string>
+			<string>Aminobenceno y fenilamina</string>
 			<string>Acetazolamida y DIAMOX</string>
 			<string>Ácido acetilsalicílico y aspirina</string>
 			<string>Benzafibrato y bezalip</string>
@@ -324,7 +324,7 @@
 		<key>difficulty</key>
 		<integer>1</integer>
 		<key>question</key>
-		<string>Los cromoforos que se encuentran en las moléculas determinan el color de las anilinas, si se cambia el grupo funcional así como una diferente posición en la molécula dan otro color u tono</string>
+		<string>Los Cromóforos que se encuentran en las moléculas determinan el color de las anilinas, si se cambia el grupo funcional así como una diferente posición en la molécula dan otro color u tono</string>
 		<key>answer</key>
 		<string>Verdadero</string>
 		<key>possibleAnswers</key>
@@ -414,8 +414,7 @@
 		<key>difficulty</key>
 		<integer>1</integer>
 		<key>question</key>
-		<string>La cochinilla es un colorante natural, que se obtiene del la hembra del insecto, Coccus cacti, que habita principalmente en México, Centro y Sudamérica. Este colorante fue introducido a Europa después de la conquista de México en 1523.
-El colorante principal del extracto de la cochinilla es el ______________ (C22H20O13).</string>
+		<string>La cochinilla es un colorante natural, que se obtiene de la hembra del insecto, Coccus cacti, que habita principalmente en México, Centro y Sudamérica. Este colorante fue introducido a Europa después de la conquista de México en 1523. El colorante principal del extracto de la cochinilla es el ______________ (C22H20O13).</string>
 		<key>answer</key>
 		<string>Ácido carmínico</string>
 		<key>possibleAnswers</key>
@@ -438,7 +437,7 @@ El colorante principal del extracto de la cochinilla es el ______________ (C22H2
 		<key>difficulty</key>
 		<integer>1</integer>
 		<key>question</key>
-		<string>El proceso de macerar la planta recién cortada y empacarla en grandes tanques para su fermentación, en donde la glucosa es hidrolizada y el precipitado es cribado y secado en pastas, es para la obtención del pigmento llamado: ___________. </string>
+		<string>El proceso de macerar la planta recién cortada y empacarla en grandes tanques para su fermentación, en donde la glucosa es hidrolizada y el precipitado es cribado y secado en pastas, es para la obtención del pigmento llamado: ___________.</string>
 		<key>answer</key>
 		<string>Índigo</string>
 		<key>possibleAnswers</key>
@@ -530,7 +529,7 @@ El colorante principal del extracto de la cochinilla es el ______________ (C22H2
 		<key>difficulty</key>
 		<integer>0</integer>
 		<key>question</key>
-		<string>¿Cuáles son las dos reacciones principales que es necesario realizar para obtener los colorantes?</string>
+		<string>¿Cuáles son las dos reacciones principales que es necesario realizar para obtener los colorantes azóicos?</string>
 		<key>answer</key>
 		<string>Reacción de diazotación y reacción de copulación</string>
 		<key>possibleAnswers</key>
@@ -553,7 +552,7 @@ El colorante principal del extracto de la cochinilla es el ______________ (C22H2
 		<key>difficulty</key>
 		<integer>0</integer>
 		<key>question</key>
-		<string>Es la reacción más importante que utiliza una amina aromatica y ácido nítrico para formar sales de diazonio.</string>
+		<string>Es la reacción más importante que utiliza una amina aromática y ácido nitroso para formar sales de diazonio.</string>
 		<key>answer</key>
 		<string>Reacción de diazotación</string>
 		<key>possibleAnswers</key>
@@ -576,7 +575,7 @@ El colorante principal del extracto de la cochinilla es el ______________ (C22H2
 		<key>difficulty</key>
 		<integer>1</integer>
 		<key>question</key>
-		<string>Utiliza una amina aromática y ácido nítrico en presencia de ácido clorhídrico y nitrito de sodio para formar ___________.</string>
+		<string>Utiliza una amina aromática y ácido nitroso en presencia de ácido clorhídrico y nitrito de sodio para formar ___________.</string>
 		<key>answer</key>
 		<string>Sales de diazonio</string>
 		<key>possibleAnswers</key>
@@ -599,7 +598,7 @@ El colorante principal del extracto de la cochinilla es el ______________ (C22H2
 		<key>difficulty</key>
 		<integer>1</integer>
 		<key>question</key>
-		<string>La amina aromática utilizada en la reacción de diazotacion es conocida como _______. Esta se obtiene por la reducción del nitrobenceno tratándolo con Fe y Hcl.</string>
+		<string>La amina aromática utilizada en la reacción de diazotacion es conocida como _______. Esta se obtiene por la reducción del nitrobenceno tratándolo con Fe y HCl.</string>
 		<key>answer</key>
 		<string>Anilina</string>
 		<key>possibleAnswers</key>
@@ -729,7 +728,7 @@ El colorante principal del extracto de la cochinilla es el ______________ (C22H2
 		<key>difficulty</key>
 		<integer>2</integer>
 		<key>question</key>
-		<string>¿A través de cuantos números de métodos generales existentes se pueden manufacturar los pigmentos orgánicos?</string>
+		<string>¿A través de cuantos números de métodos generales descritos se pueden manufacturar los pigmentos orgánicos?</string>
 		<key>answer</key>
 		<string>3</string>
 		<key>possibleAnswers</key>
@@ -752,7 +751,7 @@ El colorante principal del extracto de la cochinilla es el ______________ (C22H2
 		<key>difficulty</key>
 		<integer>2</integer>
 		<key>question</key>
-		<string>Las reacciones de nitruración, reducción de amino-compuestos, reducción de hierro-acido, reducción estanño-acido y reducción alcalina del sulfato y polisulfato, son algunas de las principales reacciones de:</string>
+		<string> Las reacciones de nitración, reducción de amino-compuestos, reducción de hierro-acido, reducción estaño-ácido y reducción alcalina del sulfato y polisulfato, son algunas de las principales reacciones de: </string>
 		<key>answer</key>
 		<string>Intermediación</string>
 		<key>possibleAnswers</key>
